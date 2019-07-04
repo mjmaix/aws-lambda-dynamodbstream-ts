@@ -7,16 +7,11 @@
   "private": true,
   "scripts": {
     "build": "tsc",
-    "clean": "rm -rf dist",
-    "test": "ts-mocha -p ./tsconfig.travis.json ./tests/**/*.test.ts"
+    "clean": "rm -rf dist"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.27",
-    "@types/chai": "^4.1.7",
-    "@types/mocha": "^5.2.7",
     "@types/node": "^12.0.12",
-    "chai": "^4.2.0",
-    "mocha": "^6.1.4",
     "typescript": "^3.5.2"
   }
 }

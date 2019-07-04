@@ -19,3 +19,7 @@ Run yarn to install dependencies
 ```
 cd my-lambda-function && yarn
 ```
+
+## TODO
+
+- [ ] Fix travis build with `ts-mocha` [Fixing travis build](https://travis-ci.org/mjmaix/aws-lambda-dynamodbstream-ts/builds/554363731)
