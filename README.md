@@ -1,4 +1,4 @@
-# aws-lambda-dynamodbstream-ts
+# aws-lambda-dynamodbstream-ts [![Build Status](https://travis-ci.org/mjmaix/aws-lambda-dynamodbstream-ts.svg?branch=master)](https://travis-ci.org/mjmaix/aws-lambda-dynamodbstream-ts)
 
 ## Usage
 
