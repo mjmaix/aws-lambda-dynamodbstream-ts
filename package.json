@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist",
-    "test": "./node_modules/.bin/ts-mocha -p ./tsconfig.json **/*.test.ts"
+    "test": "./node_modules/.bin/ts-mocha -p ./tsconfig.json ./tests/**/*.test.ts"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.27",
