@@ -1,10 +1,9 @@
-import { handleItems } from './handleItems';
-import { DynamoDBStreamEvent, Context } from 'aws-lambda';
+import { DynamoDBStreamEvent, Context } from "aws-lambda";
 
-console.log('Loading function');
+console.log("Loading function");
 
-exports.handler = async (event: DynamoDBStreamEvent, context: Context) => {
-  console.log('Received event:', JSON.stringify(event, null, 2));
-  await handleItems(event);
+export const handler = async (event: DynamoDBStreamEvent, context: Context) => {
+  console.log("Received event:", JSON.stringify(event, null, 2));
+  console.log("Received context:", JSON.stringify(context, null, 2));
   return `Successfully processed ${event.Records.length} records.`;
 };
