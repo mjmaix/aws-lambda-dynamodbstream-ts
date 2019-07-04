@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist",
-    "test": "./node_modules/.bin/ts-mocha -p ./tsconfig.travis.json ./tests/**/*.test.ts"
+    "test": "ts-mocha -p ./tsconfig.travis.json ./tests/**/*.test.ts"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.27",
@@ -17,7 +17,6 @@
     "@types/node": "^12.0.12",
     "chai": "^4.2.0",
     "mocha": "^6.1.4",
-    "ts-mocha": "^6.0.0",
     "typescript": "^3.5.2"
   }
 }
